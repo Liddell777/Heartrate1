@@ -26,5 +26,12 @@
   },
   "dependencies": {
     "browser-sync": "^2.26.7"
-  }
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1 %",
+    "maintained node version",
+    "not dead"
+  ]
+
 }
