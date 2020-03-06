@@ -1,8 +1,15 @@
+@import 'base/variables';
+
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
 .wrapper {
+    display: block;
+    box-sizing: border-box;
     max-width: 950px;
     margin: 0 auto;
 }
-.promo {
-    height: 649px;
-    background: url(../image/bg1.png) center center/cover no-repeat;
-}
+
+@import 'block/promo.scss';
+@import 'block/header.scss';
+@import 'block/buttons.scss';
