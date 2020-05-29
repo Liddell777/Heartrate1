@@ -30,6 +30,12 @@
         a {
             text-transform: uppercase;
         }
+        &_animated {
+            animation: heartbeat 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
     }
     &__txt {
         margin: 30px 0;
@@ -38,4 +44,9 @@
         font-family: "Museo Sans Cyrl";
         text-align: center;
     }
+    
 }
+/* .animated {
+        animation-name: heartbeat;
+        animation-duration: 2s;
+    } */

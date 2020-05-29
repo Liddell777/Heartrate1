@@ -1,0 +1,12 @@
+@keyframes heartbeat {
+    from {
+        transform: scaleX(1);
+    }
+    50% {
+        transform: scaleX(1.4);
+    }
+    to {
+        transform: scaleX(1);
+    }
+
+}
